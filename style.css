@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:wght@100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(204, 43%, 93%);
+  font-family: "Work Sans", sans-serif;
+}
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.container {
+  width: 700px;
+  height: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: rgba(149, 157, 165, 0.32) 0px 15px 20px;
+}
+.box-1 {
+  background-color: white;
+}
+.box-2 {
+  background-color: hsl(179, 62%, 43%);
+  width: 50%;
+}
+.box-3 {
+  width: 50%;
+  background-color: hsla(179, 64%, 46%, 0.963);
+}
+.box-1,
+.box-2,
+.box-3 {
+  padding: 40px;
+}
+.bottom {
+  display: flex;
+  overflow: hidden;
+}
+h1 {
+  color: hsl(179, 62%, 43%);
+  padding-bottom: 20px;
+}
+.subtext {
+  color: hsl(71, 73%, 54%);
+  font-size: 18px;
+  font-weight: 600;
+  padding-block: 15px;
+}
+.box-1 p {
+  line-height: 25px;
+  color: hsl(218, 22%, 67%);
+  font-size: 16px;
+}
+h2 {
+  color: rgba(255, 255, 255, 0.873);
+  font-size: 18px;
+  padding-bottom: 15px;
+  font-weight: 600;
+}
+ul {
+  color: hsla(210, 46%, 89%, 0.789);
+  font-size: 14px;
+}
+li {
+  line-height: 22px;
+  list-style: none;
+}
+.price {
+  font-size: 28px;
+  font-weight: 700;
+  padding-block: 10px;
+  color: white;
+}
+.price span {
+  font-size: 18px;
+  font-weight: 400;
+  color: hsla(210, 46%, 89%, 0.476);
+}
+.box-2 p {
+  color: hsla(203, 44%, 93%, 0.865);
+  padding-bottom: 30px;
+}
+button {
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+  width: 100%;
+  height: 50px;
+  border: none;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 7px;
+}
+button:hover {
+  cursor: pointer;
+}
+.attribution {
+  text-align: center;
+  padding-top: 50px;
+}
+.attribution a {
+  text-decoration: none;
+  color: hsla(179, 64%, 46%, 0.963);
+}
+.attribution a:hover {
+  color: hsl(71, 73%, 54%);
+}
